@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-image:url(./bestteenmovies-1612822987.jpg);
+  background-size:contain ;
+}
+
+header {
+  background-color: #697474;
+  display: flex;
+  justify-content: space-around;
+  height: 60px;
+  align-items: center;
+}
+header>h3{
+  font-size: 30px;
+  font-style: italic;
+}
+input{
+  width: 200px;
+  height: 35px;
+  border-radius: 20%;
+  border: none;
+
+}
+footer {
+  background-color: #697474;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > p {
+  font-size: 25px;
+}
+button{
+  width: 60px;
+  height: 35px;
+  border-radius: 35%;
+  display: none;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 900px;
+  margin: 20px auto;
+}
+main > div > h2 {
+  font-size: 13px;
+}
+main > div {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+main > div:hover{
+  cursor: pointer;
+}
+.dots{
+  display: flex;
+  justify-content: center;
+}
+.dots div{
+  background-color: rgb(138, 138, 164);
+  border-radius: 50%;
+  margin-left: 10px;
+  width: 100px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.singel > h2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 20px;
+}
+
+.singel > img {
+  width: 650px;
+}
+.main-singel{
+  flex-direction: row-reverse;
+}
+.main-singel>div:hover{
+  cursor: unset;
+}
+
+.sideDiv{
+  margin-top: 80px;
+  text-align: left;
+}
+.sesons{
+  margin-top: 30px;
+}
+.sumeryCllas{
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  background-color: rgb(207, 198, 182);
+  border: 1px solid white;
+}
+.serch{
+  position: relative;
+}
+ul{
+  position: absolute;
+}
+li{
+  background-color: aliceblue;
+  padding: 10px;
+  list-style: none;  
+}
+
+li:hover{
+  cursor:pointer;
+}
